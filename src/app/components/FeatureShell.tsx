@@ -143,7 +143,7 @@ export default function FeatureShell() {
         <div className="font-mono text-xs uppercase tracking-[0.18em] text-muted2">Seat Yield Engine</div>
         <div className="mt-2 text-3xl font-extrabold">Ghost Table Radar</div>
         <div className="mt-2 max-w-[840px] text-sm leading-relaxed text-muted">
-          Forecast → minimal actions → simulated impact. Frontend-only prototype with mocked APIs + localStorage “DB”.
+          Forecast → minimal actions → simulated impact.
         </div>
       </div>
 
@@ -232,7 +232,6 @@ export default function FeatureShell() {
           <div className="flex items-start justify-between gap-3">
             <div>
               <div className="text-sm font-semibold">Live summary</div>
-              <div className="mt-1 text-xs text-muted2">Updates like a real backend recompute.</div>
             </div>
             {loading ? (
               <div className="font-mono text-xs text-muted2">Syncing…</div>
